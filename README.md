@@ -9,6 +9,8 @@ The R script in this folder (run_analysis.R) is intended to solve the project fo
 ### What you will get
 After running you will have a variable in your running environment called *meansPerActivityAndSubject*. It will contain the means per activity and test subject for each measurable mean and standard deviation provided by the original dataset.
 
+You can specify a variable before running the script to clean up the data that is created while the script is running. It's name is cleanUpIntermediaryData and it has to be set to TRUE to achieve this. It will however not remove the result data.
+
 The code book for the result can be found in codebook.txt
 
 ## How it works

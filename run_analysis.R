@@ -84,3 +84,9 @@ trainMelt <- melt(allTrainingData, id=c("Training_Name", "subject_ID"))
 
 # create the means per training name and test subject
 meansPerActivityAndSubject <- dcast(trainMelt, Training_Name + subject_ID ~ variable, mean)
+
+print(meansPerActivityAndSubject)
+
+if(exists("cleanUpIntermediaryData") && cleanUpIntermediaryData) {
+    rm(columnPattern, features, columnClassesToBeRead, columnNamesToBeRead, allTrainingData, trainingKeys, trainMelt)
+}
