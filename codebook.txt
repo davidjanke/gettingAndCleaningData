@@ -1,0 +1,68 @@
+Training_Name - the name of the training type
+subject_ID - ID of the subject
+tBodyAcc-mean()-X - mean of body linear acceleration mean on the X axis
+tBodyAcc-mean()-Y - mean of body linear acceleration mean on the Y axis
+tBodyAcc-mean()-Z - mean of body linear acceleration mean on the Z axis
+tBodyAcc-std()-X - mean of body linear acceleration standard deviation on the X axis
+tBodyAcc-std()-Y - mean of body linear acceleration standard deviation on the Y axis
+tBodyAcc-std()-Z - mean of body linear acceleration standard deviation on the Z axis
+tGravityAcc-mean()-X - mean of gravity linear acceleration mean on the X axis
+tGravityAcc-mean()-Y - mean of gravity linear acceleration mean on the Y axis
+tGravityAcc-mean()-Z - mean of gravity linear acceleration mean on the Z axis
+tGravityAcc-std()-X - mean of gravity linear acceleration standard deviation on the X axis
+tGravityAcc-std()-Y - mean of gravity linear acceleration standard deviation on the Y axis
+tGravityAcc-std()-Z - mean of gravity linear acceleration standard deviation on the Z axis
+tBodyAccJerk-mean()-X - mean of body acceleration jerk mean on the X axis
+tBodyAccJerk-mean()-Y - mean of body acceleration jerk mean on the Y axis
+tBodyAccJerk-mean()-Z - mean of body acceleration jerk mean on the Z axis
+tBodyAccJerk-std()-X - mean of body acceleration jerk standard deviation on the X axis
+tBodyAccJerk-std()-Y - mean of body acceleration jerk standard deviation on the Y axis
+tBodyAccJerk-std()-Z - mean of body acceleration jerk standard deviation on the Z axis
+tBodyGyro-mean()-X - mean of body gyroscope X axis signal mean
+tBodyGyro-mean()-Y - mean of body gyroscope Y axis signal mean
+tBodyGyro-mean()-Z - mean of body gyroscope Z axis signal mean
+tBodyGyro-std()-X - mean of body gyroscope X axis signal standard deviation
+tBodyGyro-std()-Y - mean of body gyroscope Y axis signal standard deviation
+tBodyGyro-std()-Z - mean of body gyroscope Z axis signal standard deviation
+tBodyGyroJerk-mean()-X - mean of body gyroscope jerk mean along X axis
+tBodyGyroJerk-mean()-Y - mean of body gyroscope jerk mean along Y axis
+tBodyGyroJerk-mean()-Z - mean of body gyroscope jerk mean along Z axis
+tBodyGyroJerk-std()-X - mean of body gyroscope jerk standard deviation along X axis
+tBodyGyroJerk-std()-Y - mean of body gyroscope jerk standard deviation along Y axis
+tBodyGyroJerk-std()-Z - mean of body gyroscope jerk standard deviation along Z axis
+tBodyAccMag-mean() - mean of body acceleration magnitude mean
+tBodyAccMag-std() - mean of body acceleration magnitude standard deviation
+tGravityAccMag-mean() - mean of gravity acceleration magnitude mean
+tGravityAccMag-std() - mean of gravity acceleration magnitude standard deviation
+tBodyAccJerkMag-mean() - mean of body acceleration jerk magnitude mean
+tBodyAccJerkMag-std() - mean of body acceleration jerk magnitude standard deviation
+tBodyGyroMag-mean() - mean of body gyroscope magnitude mean
+tBodyGyroMag-std() - mean of body gyroscope magnitude standard deviation
+tBodyGyroJerkMag-mean() - mean of body gyroscope jerk magnitude mean
+tBodyGyroJerkMag-std() - mean of body gyroscope jerk magnitude standard deviation
+fBodyAcc-mean()-X - mean of fast Fourier Transformated body acceleration means along the X axis
+fBodyAcc-mean()-Y - mean of fast Fourier Transformated body acceleration means along the Y axis
+fBodyAcc-mean()-Z - mean of fast Fourier Transformated body acceleration means along the Z axis
+fBodyAcc-std()-X - mean of fast Fourier Transformated body acceleration standard deviations along the X axis
+fBodyAcc-std()-Y - mean of fast Fourier Transformated body acceleration standard deviations along the Y axis
+fBodyAcc-std()-Z - mean of fast Fourier Transformated body acceleration standard deviations along the Z axis
+fBodyAccJerk-mean()-X - mean of fast Fourier Transformated body acceleration jerk means along the X axis
+fBodyAccJerk-mean()-Y - mean of fast Fourier Transformated body acceleration jerk means along the Y axis
+fBodyAccJerk-mean()-Z - mean of fast Fourier Transformated body acceleration jerk means along the Z axis
+fBodyAccJerk-std()-X - mean of fast Fourier Transformated body acceleration jerk standard deviations along the X axis
+fBodyAccJerk-std()-Y - mean of fast Fourier Transformated body acceleration jerk standard deviations along the Y axis
+fBodyAccJerk-std()-Z - mean of fast Fourier Transformated body acceleration jerk standard deviations along the Z axis
+fBodyGyro-mean()-X - mean of fast Fourier Transformated gyroscope data means along the X axis
+fBodyGyro-mean()-Y - mean of fast Fourier Transformated gyroscope data means along the Y axis
+fBodyGyro-mean()-Z - mean of fast Fourier Transformated gyroscope data means along the Z axis
+fBodyGyro-std()-X - mean of fast Fourier Transformated gyroscope data standard deviations along the X axis
+fBodyGyro-std()-Y - mean of fast Fourier Transformated gyroscope data standard deviations along the Y axis
+fBodyGyro-std()-Z - mean of fast Fourier Transformated gyroscope data standard deviations along the Z axis
+fBodyAccMag-mean() - mean of fast Fourier Transformated body acceleration magnitude means
+fBodyAccMag-std() - mean of fast Fourier Transformated body acceleration magnitude standard deviations
+fBodyBodyAccJerkMag-mean() - mean of fast Fourier Transformated body acceleration jerk magnitude means
+fBodyBodyAccJerkMag-std() - mean of fast Fourier Transformated body acceleration jerk magnitude standard deviations
+fBodyBodyGyroMag-mean() - mean of fast Fourier Transformated body gyroscope magnitude means
+fBodyBodyGyroMag-std() - mean of fast Fourier Transformated body gyroscope magnitude standard deviations
+fBodyBodyGyroJerkMag-mean() - mean of fast Fourier Transformated body gyroscope magnitude jerk means
+fBodyBodyGyroJerkMag-std() - mean of fast Fourier Transformated body gyroscope magnitude jerk standard deviations
