@@ -1,3 +1,10 @@
+The data originated from an experiment: [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
+
+- The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
+- The gyroscope units are rad/seg.
+- Features are normalized and bounded within [-1,1].
+
+##################### codebook begins here #####################
 Training_Name - the name of the training type
 subject_ID - ID of the subject
 tBodyAcc-mean()-X - mean of body linear acceleration mean on the X axis
