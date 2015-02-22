@@ -35,6 +35,7 @@ readPartialDataSet <- function(directory, colClassesFilter) {
     originalDir <- getwd()
     setwd(directory)
     
+    # predefine the file name patterns so we can reuse later for multiple directories
     trainingDataFilePattern <- "X_DIRNAME.txt"
     subjectKeyFilePattern <- "subject_DIRNAME.txt"
     trainingKeyFilePattern <- "y_DIRNAME.txt"
@@ -45,6 +46,7 @@ readPartialDataSet <- function(directory, colClassesFilter) {
     
     setwd(originalDir)
     
+    # bind the data, asssuming they have all the same number of datarows
     cbind(subjectKey, trainingKey, trainingData)
     
 }
@@ -71,11 +73,14 @@ allTrainingData <- rbind(readPartialDataSet("test", columnClassesToBeRead), read
 # set the column names
 names(allTrainingData) <- c("subject_ID", "trainingKey", columnNamesToBeRead)
 
+# Read the training key to description mapping
 trainingKeys <- read.table("activity_labels.txt", col.names = c("trainingKey", "Training_Name"))
 
+# merge the raw data with the training names and remove the training key, as we don't need it
 allTrainingData <- select(merge(trainingKeys, allTrainingData), -trainingKey)
 
-# melt the data
+# melt the data by the training names and subjects so we can simply run stats on it
 trainMelt <- melt(allTrainingData, id=c("Training_Name", "subject_ID"))
 
+# create the means per training name and test subject
 meansPerActivityAndSubject <- dcast(trainMelt, Training_Name + subject_ID ~ variable, mean)
